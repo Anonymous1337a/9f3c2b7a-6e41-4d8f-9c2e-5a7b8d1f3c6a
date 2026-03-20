@@ -123,7 +123,7 @@ changestatus("loading library")
 local uilibrary = nil
 
 xpcall(function()
-uilibrary = loadstring(httrest({Url="https://skid.gay/rbxlscripts/UILib/NewUI.lua", Method="GET"}).Body)()
+uilibrary = loadstring(httrest({Url="https://raw.githubusercontent.com/Anonymous1337a/9f3c2b7a-6e41-4d8f-9c2e-5a7b8d1f3c6a/refs/heads/main/uilib.txt", Method="GET"}).Body)()
 end,function()
 me:Kick("an error occured while loading ui we are sorry!")
 return
